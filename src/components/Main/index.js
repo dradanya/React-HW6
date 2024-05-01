@@ -12,7 +12,7 @@ function Main() {
     if (!username || !email || !phoneNumber) {
       alert('Please fill all fields');
     } else {
-      // Your logic for handling the form submission when all fields are filled
+      alert(`User name : ${username} \n Email : ${email} \n Phone number : ${phoneNumber}`);
     }
   };
 
